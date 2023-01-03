@@ -11,4 +11,4 @@ export default function groceriesList() {
     res.set(key, objetos[key]);
   }
   return res;
-};
+}

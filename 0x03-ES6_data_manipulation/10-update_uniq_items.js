@@ -1,4 +1,4 @@
-export default function updateUniqueItems(map){
+export default function updateUniqueItems(map) {
   if (map instanceof Map) {
     for (const [key, value] of map.entries()) {
       if (value === 1) {
@@ -8,4 +8,4 @@ export default function updateUniqueItems(map){
     return map;
   }
   throw new Error('Cannot process');
-};
+}

@@ -5,4 +5,4 @@ export default function hasValuesFromArray(setList, arr) {
     }
   }
   return true;
-};
+}
